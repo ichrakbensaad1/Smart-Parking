@@ -10,7 +10,7 @@ _ cablage
 
  <img src="cablage.png" />
  
- <img src="realisation.png" />
+ <img src="realisation.jpg" />
 Le projet est principalement divisé en deux parties 
 
 
