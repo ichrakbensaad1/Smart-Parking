@@ -1,0 +1,83 @@
+<center><h1>Smart Parking </h1></center>
+
+<style>
+	body {
+	background-color: #CBF6FF;
+	}
+	button {
+        display: inline-block;
+        background-color: #00ff00;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #1a0303;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+</style>
+<h2>row 1</h2>
+<button>
+	<span></span>
+  </button>
+<hr>
+    
+</hr>
+<h2>row 2</h2>
+<button>
+	<span></span>
+  </button>
+
+<hr>
+    
+</hr>
+<center><img src="https://thumbs.dreamstime.com/b/lonely-car-parking-standing-alone-empty-parking-spot-city-lonely-car-parking-standing-alone-empty-parking-lot-area-168881172.jpg"  width="600" height="341"* />
+
+</center>
+<h3 id="mode"></h3>
+<script src="{{url_for('static', filename='jquery-3.2.1.js')}}"></script>
+<script>
+
+    $(document).ready(function(){
+        function listen(){
+	var x = document.getElementById("mode");
+            $.ajax({
+                type:"GET",
+                url:"/listening",
+                success: function(status,distance){
+			var s = status.status
+			var d = status.distance
+			if(s == 0){
+			document.getElementById('mode').innerHTML = "liber, distance is "+d;
+             <button>
+	         <span> </span>
+             </button>
+			}
+			else if(s == 1){
+			document.getElementById('mode').innerHTML = "occupe, distance is "+d;
+			<a href="/ledRed/off"class="button">TURN OFF</a>
+			//button red 
+			document.getElementById("button").style.background='#ff0000';
+			}
+			else if(s == 2){
+			document.getElementById('mode').innerHTML = "Buzzer and LED is ON, distance is "+d;
+			}
+			else{
+			document.getElementById('mode').innerHTML = "distance "+d;
+			document.getElementById("button").style.background='#00ff00';
+			<a href="/ledbl/on" class="button">TURN ON</a>
+			}
+                },
+                error: function(res){
+			x.innerHTML = res;
+                }           
+            });     
+        }   
+        
+        setInterval(listen, 500);
+    });
+</script>
+
