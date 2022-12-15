@@ -3,6 +3,7 @@
 Notre solution SMART QR BASED PARKING SYSTEM serait principalement axé sur l'aide au conducteur pour trouver facilement des places de stationnement
 vacantes à l'aide du système de stationnement intelligent basé sur le code QR et pour réduire le trafic, la consommation d'énergie et la pollution de l'air.
 
+<img src="demo.mp4"/>
 # matrielle utlise:
 * carte Raspberry
 * capteur ultrason 
@@ -18,7 +19,6 @@ Le projet est principalement divisé en deux parties
 ** Appliction Mobile "Park it".
 Application mobile qui genere un code QR a partir de donnée entrée pour reservé une place dans un parking.
 
-<img src="demo.mp4"/>
 * logiciel utilise:
 _Android studio 
 
