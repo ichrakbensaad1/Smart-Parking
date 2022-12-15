@@ -19,7 +19,7 @@ notre application permet l'authentification a traver QR code d'utilisateur pour 
 _Android studio 
 
 
-<img src="application.PNG" />
+<img src="application1.jpg" />
 
 
 # Partie 2: 
