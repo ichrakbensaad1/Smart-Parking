@@ -14,7 +14,9 @@ Le projet est principalement divisé en deux parties
 
 # Partie 1 
 ** Appliction Mobile "Park it".
-notre application permet l'authentification a traver QR code d'utilisateur pour acced a notre parking.
+Application mobile qui genere un code QR a partir de donnée entrée pour reservé une place dans un parking.
+
+
 * logiciel utilise:
 _Android studio 
 
@@ -23,12 +25,15 @@ _Android studio
 
 
 # Partie 2: 
-** dashbord 
+** dashboard:
+notre dashboard permet de gere les places reserve ou non
+les outile :
+- python 
+- flask 
+- html 
 
 
-
-
-<img src="interface.PNG"/>
+<img src="interface.jpg"/>
 
 
 
