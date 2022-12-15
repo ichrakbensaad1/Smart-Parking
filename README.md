@@ -2,8 +2,8 @@
 ## Description
 Notre solution SMART QR BASED PARKING SYSTEM serait principalement axé sur l'aide au conducteur pour trouver facilement des places de stationnement
 vacantes à l'aide du système de stationnement intelligent basé sur le code QR et pour réduire le trafic, la consommation d'énergie et la pollution de l'air.
-
-<img src="demo.mp4"/>
+## lien
+[lien demo](https://drive.google.com/file/d/16TJafhZrxJOkgN_jrQ4Putlv6f54PFx-/view?usp=sharing)
 # matrielle utlise:
 * carte Raspberry
 * capteur ultrason 
