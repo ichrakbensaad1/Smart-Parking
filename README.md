@@ -33,7 +33,7 @@ les outile :
 - html 
 
 
-<img src="interface.jpg"/>
+<img src="interface.PNG"/>
 
 
 
