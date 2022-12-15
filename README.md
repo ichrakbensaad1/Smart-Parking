@@ -9,6 +9,8 @@ vacantes à l'aide du système de stationnement intelligent basé sur le code QR
 _ cablage 
 
  <img src="cablage.png" />
+ 
+ <img src="realisation.png" />
 Le projet est principalement divisé en deux parties 
 
 
@@ -16,7 +18,7 @@ Le projet est principalement divisé en deux parties
 ** Appliction Mobile "Park it".
 Application mobile qui genere un code QR a partir de donnée entrée pour reservé une place dans un parking.
 
-
+<img src="demo.mp4"/>
 * logiciel utilise:
 _Android studio 
 
